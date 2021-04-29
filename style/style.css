@@ -3,15 +3,19 @@
 }
 
 #main-bio{
-
+float: left;
+width: 70%;
 }
 
 #contact-info{
-
+float: left;
+width: 30%;
+line-height: 1.5;
 }
 
 #bio-image{
-
+float: left;
+width: 200px;
 }
 
 body {
@@ -29,4 +33,11 @@ header {
 h1 {
     color: #eee;
     font-size: 28px;
+    margin: 0px;
+    padding: 25px;
+
+}
+h2 {
+    font-size: 24px;
+    margin:0 auto;
 }
